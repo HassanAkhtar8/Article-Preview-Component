@@ -19,6 +19,7 @@
 
 - HTML5
 - CSS
+- SASS
 - JAVASCRIPT
 
 ### Use

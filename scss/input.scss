@@ -1,0 +1,47 @@
+@forward 'global';
+@use "util" as u;
+$green : green;
+body{
+ background-color: u.$bg;
+ box-sizing: border-box;
+ font-family: u.$fonts;
+ display: grid;
+ min-height: 100vh;
+ justify-content: center;
+ align-items: center;
+
+}
+main{
+ display: flex;
+ width: min(90%,800px);
+ margin: 0 auto;
+}
+.info{
+ display: flex;
+}
+.draw{
+ width: 300px;
+}
+.content{
+ width: 80%;
+ background-color: aliceblue;
+ padding: 20px;
+}
+h1,h2{
+ color: u.$bh;
+ padding-bottom: 0.8rem;
+}
+p{
+ color: u.$p;
+ padding-bottom: 0.7rem;
+}
+.dp{
+ width: 50px;
+ border-radius: 50%;
+}
+
+.share{
+ background-color: u.$lbh;
+ width: 1.5rem;
+ height: 1.5rem;
+}
