@@ -4,6 +4,7 @@
 
 ## Overview
 ## Languages
+## Live Site
 ## Final Remarks
 
 
@@ -20,6 +21,11 @@
 - CSS
 - SASS
 - JAVASCRIPT
+
+
+## Live Site
+- Live site url[https://hassanakhtar8.github.io/Article-Preview-Component/]
+
 
 ### Final Remarks
 
