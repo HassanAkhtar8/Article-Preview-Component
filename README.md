@@ -24,7 +24,7 @@
 
 
 ## Live Site
-- Live site url[https://hassanakhtar8.github.io/Article-Preview-Component/]
+- Live site url: [Live site](https://hassanakhtar8.github.io/Article-Preview-Component/)
 
 
 ### Final Remarks
