@@ -13,19 +13,33 @@ body{
 }
 main{
  display: flex;
- width: min(90%,800px);
+ width: min(90%,600px);
  margin: 0 auto;
+ overflow: hidden;
 }
 .info{
  display: flex;
+ justify-content: space-between;
+ margin-top: 1rem;
+}
+.img-container{
+ width: 40%;
 }
 .draw{
- width: 300px;
+ width: 100%;
+ height: 100%;
+ border-top-left-radius: 0.5rem;
+ border-bottom-left-radius: 0.5rem;
 }
 .content{
  width: 80%;
  background-color: aliceblue;
- padding: 20px;
+ border-top-right-radius: 0.5rem;
+border-bottom-right-radius: 0.5rem;
+}
+.pad{
+    padding-left: 1rem;
+    padding-top: 1rem;
 }
 h1,h2{
  color: u.$bh;
@@ -38,10 +52,103 @@ p{
 .dp{
  width: 50px;
  border-radius: 50%;
+ margin-right: 0.8rem;
+}
+div{
+    h2{
+        padding: 3px;
+ }
+}
+.data{
+ display: flex;
+}
+.small{
+    display: none;
+}
+svg{
+ background-color: #6E8098;
+ border-radius: 50%;
+}
+//ul
+.social{
+    list-style-type:none;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    p{
+        color: aliceblue;
+    }
+}
+.rel{
+    position: relative;
+    cursor: pointer;
+}
+.social-container{
+    border-radius: 5px;
+    bottom: 3.9rem;
+    right: 1rem;
+    padding: 0.3rem;
+    position: absolute;
+    width: 9rem;
+    height: 2rem;
+    background-color: #6E8098;
+    visibility: hidden;
+}
+.visi{
+    visibility: visible;
+}
+.social-container::after{
+    content: "";
+    position: absolute;
+    top: 1.8rem;
+    right: -0.02rem;
+    width: 0;
+    height: 0;
+    border-left: 0.5rem solid transparent;
+    border-right: 0.5rem solid transparent;
+    border-top: 1rem solid #6E8098;
+}
+@media screen and (max-width: 400px) {
+    main{
+    flex-direction: column;
+    }
+    .content{
+    position: relative;
+    top: -0.3rem;
+    width: auto;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0.5rem;
+    }
+    .img-container{
+        width: auto;
+    }
+    .draw{
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 0.5rem;
+    }
+    .info-cl{
+        background-color: #6E8098;
+        margin-top: 0;
+    }
+    .info-cl>.data{
+        display: none;
+    }
+    .social-container{
+        display: none;
+    }
+    .info-cl>.small{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+        width: 100%;
+        padding: 1rem;
+        cursor: pointer;
+    }
+    .social-container::after{
+        display: none;
+    }
 }
 
-.share{
- background-color: u.$lbh;
- width: 1.5rem;
- height: 1.5rem;
-}

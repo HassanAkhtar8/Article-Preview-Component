@@ -18,6 +18,7 @@
 ### Languages
 
 - HTML5
+- Semantic Elements
 - CSS
 - SASS
 - JAVASCRIPT
