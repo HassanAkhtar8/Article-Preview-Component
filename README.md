@@ -4,8 +4,6 @@
 
 ## Overview
 ## Languages
-## Function
-## Use 
 ## Final Remarks
 
 
@@ -22,12 +20,6 @@
 - CSS
 - SASS
 - JAVASCRIPT
-
-### Use
-
-- This project includes animations 
-- There is a hover effect 
-- There is animation on share button
 
 ### Final Remarks
 
