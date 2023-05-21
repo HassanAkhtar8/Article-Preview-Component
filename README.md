@@ -1,18 +1,17 @@
-# Frontend Mentor Project 
+# Article Preview Component
 
 ## Table of Contents
 
-## Overview
-## Languages
-## Live Site
-## Final Remarks
+- [Section 1](#Overview)
+- [Section 2](#Languages)
+- [Section 3](#Live-Site)
+- [Section 4](#Final-Remarks)
 
 
 ### Overview
 
-- This is an project from frontend mentor 
-- This is an Frontend project 
-- The result must match the provided designs
+- It's a prety simple design that I had to recreate
+- I did my best but I guess I should have done better
 
 ### Languages
 
